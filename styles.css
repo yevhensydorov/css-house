@@ -1,0 +1,109 @@
+.first-floor {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	background: red;
+}
+
+.second-floor {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid red;
+}
+
+/*DOOR START*/
+.left-side {
+	position: absolute;
+	width: 2px;
+	height: 60px;
+	bottom: 0;
+	left: 80px;
+	background: white;
+}
+
+.right-side {
+	position: absolute;
+	width: 2px;
+	height: 60px;
+	bottom: 0;
+	left: 120px;
+	background: white;
+}
+
+.top-side {
+	position: absolute;
+	width: 40px;
+	height: 2px;
+	bottom: 58px;
+	left: 80px;
+	background: white;
+}
+
+.door-knob {
+	position: absolute;
+	left: 85px;
+	bottom: 30px;
+	width: 8px;
+	height: 8px;
+	background: white;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+/*DOOR FINISH*/
+
+/*LEFT WINDOW FIRST FLOOR START*/
+.left-windows {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	bottom: 35px;
+	left: 25px;
+	background: white;
+}
+
+.left-windows .vertical-division {
+	position: absolute;
+	width: 2px;
+	height: 30px;
+	background-color: red;
+	left: 14px;
+}
+
+.left-windows .horizontal-division {
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: red;
+	top: 14px;
+}
+/*LEFT WINDOW FIRST FLOOR FINISH*/
+
+/*RIGHT WINDOW FIRST FLOOR START*/
+.right-windows {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	bottom: 35px;
+	right: 25px;
+	background: white;
+}
+
+.right-windows .vertical-division {
+	position: absolute;
+	width: 2px;
+	height: 30px;
+	background-color: red;
+	left: 14px;
+}
+
+.right-windows .horizontal-division {
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background-color: red;
+	top: 14px;
+}
+/*RIGHT WINDOW FIRST FLOOR FINISH*/
