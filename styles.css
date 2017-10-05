@@ -6,12 +6,40 @@
 }
 
 .second-floor {
+	position: relative;
 	width: 0;
 	height: 0;
 	border-left: 100px solid transparent;
 	border-right: 100px solid transparent;
 	border-bottom: 100px solid red;
 }
+
+/*WINDOW SECOND FLOOR START*/
+.window {
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	top: 60px;
+	left: -26px;
+	background: white;
+}
+
+.window .vertical-division {
+	position: absolute;
+	width: 2px;
+	height: 30px;
+	background-color: red;
+	left: 23px;
+}
+
+.window .horizontal-division {
+	position: absolute;
+	width: 50px;
+	height: 2px;
+	background-color: red;
+	top: 14px;
+}
+/*WINDOW SECOND FLOOR FINISH*/
 
 /*DOOR START*/
 .left-side {
